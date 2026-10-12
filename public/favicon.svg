@@ -1,4 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#1e3a6e" />
-  <text x="16" y="22" fill="#faf8f3" font-family="ui-monospace, monospace" font-size="16" font-weight="600" text-anchor="middle">hk</text>
+  <g stroke="#faf8f3" stroke-width="1.75" stroke-linecap="round" fill="none">
+    <path d="M16 8 L9 16 M16 8 L23 16 M9 16 L5.5 24 M9 16 L12.5 24" />
+  </g>
+  <g fill="#faf8f3">
+    <circle cx="16" cy="8" r="2.75" />
+    <circle cx="9" cy="16" r="2.5" />
+    <circle cx="5.5" cy="24" r="2.25" />
+    <circle cx="12.5" cy="24" r="2.25" />
+  </g>
+  <rect x="20.75" y="13.75" width="4.5" height="4.5" rx="1" fill="#faf8f3" />
 </svg>
