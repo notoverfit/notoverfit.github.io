@@ -1,0 +1,15 @@
+.header__name {
+  margin-bottom: 4px;
+  font-size: var(--text-xl);
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.header__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  font-weight: 300;
+}

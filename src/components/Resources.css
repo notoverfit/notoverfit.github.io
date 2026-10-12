@@ -1,0 +1,73 @@
+.resources__intro {
+  margin-bottom: 14px;
+  color: var(--color-subtle);
+  font-size: var(--text-2xs);
+  font-weight: 300;
+}
+
+.resources__subject + .resources__subject {
+  margin-top: 16px;
+}
+
+.resources__subject-name {
+  margin-bottom: 2px;
+  color: var(--color-faint);
+  font-size: var(--text-2xs);
+  font-weight: 400;
+}
+
+.course + .course {
+  border-top: 1px solid var(--color-border);
+}
+
+/* Row and group share a font size so the 9ch code column and the group indent line up. */
+.course__row,
+.course__group {
+  font-size: var(--text-2xs);
+  line-height: 1.5;
+}
+
+.course__row {
+  display: grid;
+  grid-template-columns: 9ch max-content 1fr;
+  align-items: baseline;
+  column-gap: 14px;
+  padding: 6px 0;
+}
+
+.course__code {
+  color: var(--color-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.course__title {
+  font-size: var(--text-xs);
+  font-weight: 500;
+}
+
+.course__links {
+  justify-content: flex-end;
+}
+
+/* inline-block keeps the count out of the toggle's underline */
+.course__count {
+  display: inline-block;
+  margin-left: 5px;
+  color: var(--color-faint);
+}
+
+.course__group {
+  padding: 0 0 8px calc(9ch + 14px);
+}
+
+@media (max-width: 560px) {
+  .course__row {
+    grid-template-columns: 9ch 1fr;
+    row-gap: 2px;
+  }
+
+  .course__links {
+    grid-column: 2;
+    justify-content: flex-start;
+  }
+}
