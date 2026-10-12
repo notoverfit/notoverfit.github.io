@@ -6,7 +6,10 @@ export interface ExternalLink {
 export const profile = {
   name: 'haeohreum kim',
   tagline: 'trading · quant research · sydney',
-  links: [{ label: 'github', href: 'https://github.com/notoverfit' }] satisfies ExternalLink[],
+  links: [
+    { label: 'github', href: 'https://github.com/notoverfit' },
+    { label: 'linkedin', href: 'https://www.linkedin.com/in/haeohreum-kim-3a92bb240/' },
+  ] satisfies ExternalLink[],
   about: [
     'trader and quantitative researcher, based in sydney.',
     'computer science @ unsw',
